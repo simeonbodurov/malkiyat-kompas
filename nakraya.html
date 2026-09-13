@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Накрая · За тази книга — Малкият компас</title>
+<meta name="description" content="Как е направена книгата и какво носи всяка история.">
+<meta property="og:title" content="Накрая · За тази книга — Малкият компас">
+<meta property="og:description" content="Как е направена книгата и какво носи всяка история.">
+<meta property="og:type" content="book">
+<meta name="theme-color" content="#FBF9F4">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Literata:opsz,wght@7..72,400;7..72,600&family=Manrope:wght@400;600&display=swap&subset=cyrillic" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBF9F4; --ink:#1B2330; --muted:#6C7284; --rule:#E2DDD2;
+  --g1:#3F7A6B; --g2:#B0692F; --g3:#5E5391;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Literata",Georgia,"Times New Roman",serif;
+  font-size:19px; line-height:1.66;
+}
+a{color:inherit}
+.wrap{max-width:34rem;margin:0 auto;padding:2.2rem 1.4rem 5rem}
+.eyebrow{
+  font-family:"Manrope",system-ui,sans-serif; font-size:.72rem;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--muted);
+  margin:0 0 .5rem;
+}
+h1{
+  font-family:"Alegreya",Georgia,serif; font-weight:500;
+  font-size:2.55rem; line-height:1.08; letter-spacing:-.01em; margin:.2rem 0 .6rem;
+}
+h2{font-family:"Alegreya",Georgia,serif;font-weight:500;font-size:1.6rem;line-height:1.2;margin:2.6rem 0 .8rem}
+h3{font-family:"Alegreya",Georgia,serif;font-weight:500;font-size:1.3rem;margin:2rem 0 .6rem}
+h4{font-family:"Manrope",sans-serif;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:2rem 0 .4rem}
+p{margin:0 0 1.05em}
+p.speech{text-indent:0}
+p.note{color:var(--muted);font-style:italic}
+ul{margin:0 0 1.2em;padding-left:1.1rem}
+li{margin:.35em 0}
+strong{font-weight:600}
+
+/* подпис: цветна нишка по левия ръб според класа */
+.thread{position:fixed;left:0;top:0;bottom:0;width:5px;background:var(--accent,var(--rule))}
+@media(max-width:640px){.thread{width:4px}}
+
+.lede{font-size:1.08rem;color:var(--muted);margin-bottom:2rem}
+.dl{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.6rem 0 2.4rem}
+.dl a{
+  font-family:"Manrope",sans-serif;font-size:.82rem;letter-spacing:.04em;
+  text-decoration:none;border:1px solid var(--rule);border-radius:2px;
+  padding:.55rem .9rem;background:#fff;
+}
+.dl a:hover{border-color:var(--ink)}
+
+.year{margin:3.2rem 0 1rem;padding-top:1.1rem;border-top:1px solid var(--rule)}
+.year h2{margin:0;font-size:1.45rem}
+.year .sub{font-family:"Manrope",sans-serif;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:.25rem}
+.toc{list-style:none;margin:.8rem 0 0;padding:0}
+.toc li{margin:0;border-bottom:1px solid var(--rule)}
+.toc a{display:flex;gap:.85rem;align-items:baseline;padding:.72rem .2rem;text-decoration:none}
+.toc a:hover{background:#fff}
+.toc .num{font-family:"Manrope",sans-serif;font-size:.78rem;color:var(--muted);min-width:1.6rem;font-variant-numeric:tabular-nums}
+.toc .t{flex:1}
+.y1 .num{color:var(--g1)} .y2 .num{color:var(--g2)} .y3 .num{color:var(--g3)}
+
+.storyhead{margin-bottom:1.8rem}
+.q{margin:2.4rem 0 0;padding:1.2rem 1.3rem;background:#fff;border:1px solid var(--rule)}
+.q h4{margin-top:0}
+.try{margin-top:1.2rem;font-family:"Manrope",sans-serif;font-size:.92rem;line-height:1.55}
+
+.nav{display:flex;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--rule);font-family:"Manrope",sans-serif;font-size:.85rem}
+.nav a{text-decoration:none;color:var(--muted)}
+.nav a:hover{color:var(--ink)}
+
+footer{margin-top:4rem;padding-top:1.4rem;border-top:1px solid var(--rule);font-family:"Manrope",sans-serif;font-size:.8rem;line-height:1.6;color:var(--muted)}
+footer a{color:var(--muted)}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+@media print{.thread,.nav,.dl{display:none}body{background:#fff}}
+</style>
+</head>
+<body >
+<div class="thread"></div>
+<div class="wrap">
+<p class="eyebrow"><a href="index.html" style="text-decoration:none">Малкият компас</a></p><h2>Накрая</h2>
+<p>Ако сте стигнали дотук, детето вече е чуло двайсет истории, в които никой не е бил награден за това, че е бил добър.</p>
+<p>Това не е пропуск.</p>
+<p>Наградата за честност често е само това, че вечер заспиваш спокойно. Изглежда малко. И въпреки това хората го правят.</p>
+<p>Тази книга дава думите и упражнението. Останалото децата го учат, като гледат възрастните около себе си.</p>
+<p>Примерът давате вие.</p><h2>За тази книга</h2>
+<h3>Защо</h3>
+<p>През 2025 г. Министерството на образованието предложи нов предмет за българското училище — „Добродетели и религии“, с три алтернативни програми по избор на родителя: православие, ислям и неконфесионална етика. Утвърдена учебна програма няма, а сроковете за въвеждане се местят.</p>
+<p>Тази книга е опит да се отговори на един въпрос предварително: ако наистина се преподава етика на седем-, осем- и деветгодишни, какво всъщност си струва да им се каже.</p>
+<p>Тя не следва официална програма и не заменя учебник. Може да се чете вкъщи, да се ползва в час, или да не се ползва изобщо.</p>
+<h3>Как е направена</h3>
+<p>Двайсет истории следват един клас от първи до трети — едни и същи деца, три години. Не са отделни притчи, а един малък свят, в който постъпките от миналата година си личат.</p>
+<p>Първите шест са къси, с прости изречения и много диалог, защото първокласникът още не чете и някой му ги чете на глас. Към трети клас изреченията се удължават, а положенията стават по-объркани.</p>
+<p>Четири правила, спазени навсякъде:</p>
+<p><strong>Няма поуки.</strong> Никоя история не завършва с „и така Мира разбра, че…“. Поуката изключва мисленето точно когато то е започнало. Затова краят е действие или детска реплика, а после идват въпроси без верен отговор.</p>
+<p><strong>Никой не е награден за това, че е бил добър.</strong> Тео плаща половин стъкло, Мира отива на скучния рожден ден, Ивайла печели наполовина. Книгите за деца обикновено обещават, че доброто се връща веднага. Не се връща надеждно и децата го знаят от опит — обещае ли им го книгата, тя губи доверие точно там, където ѝ трябва.</p>
+<p><strong>Прошката не се дължи.</strong> На няколко места някой се извинява правилно и другият не прощава веднага. Важно е за деца, които иначе учат, че „казах съжалявам“ е бутон.</p>
+<p><strong>Възрастните не са безгрешни и не знаят всичко.</strong> Учителката се ядосва по три пъти на ден, дядо Стефан се страхува от високо, майката не може да залепи чинията. Два пъти учителката не отговаря на въпрос, защото няма отговор.</p>
+<h3>Какво носи всяка история</h3>
+<p><strong>Първи клас — за мен самия</strong></p>
+<p>1. <strong>Чайникът</strong> — чувството и постъпката са различни неща. Не си виновен, че те е яд; отговаряш за това, което правиш с яда.</p>
+<p>2. <strong>Не знам</strong> — „не знам, ама искам да разбера“ води някъде, а измисленият отговор спира търсенето.</p>
+<p>3. <strong>Страхът не е срам</strong> — страхът е предупреждение, не присъда. Кога се слуша и кога се минава покрай него.</p>
+<p>4. <strong>Счупената чиния</strong> — истината и поправянето са две различни задачи. Някои неща не се лепят.</p>
+<p>5. <strong>„Съжалявам, ама…“</strong> — извинението има три части и една забранена дума. Дали е свършило работа, решава пострадалият.</p>
+<p>6. <strong>Онова, което никой не вижда</strong> — благодарността започва с това да забележиш човека и да го попиташ за името му.</p>
+<p><strong>Втори клас — за мен и теб</strong></p>
+<p>7. <strong>Мястото до Дани</strong> — разликата между това да си сам, защото искаш, и защото никой не е тръгнал пръв. Защо графикът не върши работа.</p>
+<p>8. <strong>Смешно ли е?</strong> — смях заедно и смях срещу някого. Проверката: човекът може ли да промени това, на което се смееш?</p>
+<p>9. <strong>Тайната, която тежи</strong> — тайните-изненади се пазят, тайните-капани се казват. И се казва предварително на човека, чието обещание нарушаваш.</p>
+<p>10. <strong>Дадената дума</strong> — честността не отменя разочарованието. По-добре откажи веднага, отколкото да се откажеш после.</p>
+<p>11. <strong>Когато приятел сгреши</strong> — третият път между това да го издадеш и да излъжеш за него.</p>
+<p>12. <strong>Как се стои до някой, който е тъжен</strong> — тъгата не се поправя. Питаш за загубеното и мълчиш.</p>
+<p><strong>Трети клас — за мен и другите</strong></p>
+<p>13. <strong>Еднакво не значи справедливо</strong> — еднаквото към всички понякога е несправедливо. Показано през опит, не обяснено.</p>
+<p>14. <strong>Играта без победител</strong> — какво губи този, който винаги печели. И защо се казва насаме и веднага.</p>
+<p>15. <strong>Чуждият обяд</strong> — разликата между „давам ти“ и „ядем заедно“. Как се помага, без да унизиш.</p>
+<p>16. <strong>Правилото, което няма смисъл</strong> — правилата имат причини; питаш за причината, преди да ги нарушиш. И как се променя правило по мирен начин.</p>
+<p>17. <strong>Чух, че…</strong> — повтарянето е също участие. Проверката, преди да предадеш нещо за някого.</p>
+<p>18. <strong>Кой ще каже?</strong> — защо никой не тръгва пръв. Трите безопасни начина да се намесиш и кога кой от тях.</p>
+<p>19. <strong>Смешното в час</strong> — вредата без зъл умисъл. Защо „стига“ не помага, а конкретната сметка помага.</p>
+<p>20. <strong>Двата въпроса</strong> — какво се прави, когато наистина не знаеш кое е правилното.</p>
+<h3>Какво не е влязло</h3>
+<p>Няма религия — нито като вероучение, нито като културология. Този избор е съзнателен: книгата е за постъпки и последици, а те се обсъждат еднакво във вярващо и в невярващо семейство.</p>
+<h3>Голямата книга</h3>
+<p>За читатели между 12 и 18 години има отделна книга — <strong>„Компас за характера“</strong>: четиринайсет глави за добродетелите, етиката и гражданското образование, които тръгват от теб самия и стигат до планетата.</p>
+<p><a href="https://simeonbodurov.github.io/kompas-za-haraktera/">https://simeonbodurov.github.io/kompas-za-haraktera/</a></p>
+<p>Двете книги не се дублират. Тази учи да забелязваш; голямата учи да спориш.</p>
+<h3>Как е писана</h3>
+<p>Текстът е написан от Claude (Anthropic) в диалог със Симеон Бодуров, който възложи задачата, определи посоката и редактира българския език ред по ред — от липсващи кратки местоимения до реплики, които звучат книжно в устата на осемгодишен. Няколко истории са пренаписани изцяло след негови възражения, а една е добавена по действителен случай от българско училище.</p>
+<p>Свободна е за ползване, четене на глас и препечатване.</p><div class="nav"><a href="st20.html">← Двата въпроса</a><a href="index.html">Съдържание →</a></div>
+<footer>
+<p>„Малкият компас“ — двайсет истории за добро и лошо, за деца от 1. до 3. клас.
+Текстът е написан от Клод (Claude, Anthropic) по задание на Симеон Бодуров и е редактиран от него ред по ред.</p>
+<p>За по-големи читатели: <a href="https://simeonbodurov.github.io/kompas-za-haraktera/">Компас за характера</a>.</p>
+<p>Свободно за некомерсиална употреба с посочване на източника — CC BY-NC-SA 4.0.</p>
+</footer>
+</div>
+</body>
+</html>

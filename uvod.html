@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>За възрастния, който чете на глас — Малкият компас</title>
+<meta name="description" content="Как се чете тази книга с дете.">
+<meta property="og:title" content="За възрастния, който чете на глас — Малкият компас">
+<meta property="og:description" content="Как се чете тази книга с дете.">
+<meta property="og:type" content="book">
+<meta name="theme-color" content="#FBF9F4">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Literata:opsz,wght@7..72,400;7..72,600&family=Manrope:wght@400;600&display=swap&subset=cyrillic" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBF9F4; --ink:#1B2330; --muted:#6C7284; --rule:#E2DDD2;
+  --g1:#3F7A6B; --g2:#B0692F; --g3:#5E5391;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Literata",Georgia,"Times New Roman",serif;
+  font-size:19px; line-height:1.66;
+}
+a{color:inherit}
+.wrap{max-width:34rem;margin:0 auto;padding:2.2rem 1.4rem 5rem}
+.eyebrow{
+  font-family:"Manrope",system-ui,sans-serif; font-size:.72rem;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--muted);
+  margin:0 0 .5rem;
+}
+h1{
+  font-family:"Alegreya",Georgia,serif; font-weight:500;
+  font-size:2.55rem; line-height:1.08; letter-spacing:-.01em; margin:.2rem 0 .6rem;
+}
+h2{font-family:"Alegreya",Georgia,serif;font-weight:500;font-size:1.6rem;line-height:1.2;margin:2.6rem 0 .8rem}
+h3{font-family:"Alegreya",Georgia,serif;font-weight:500;font-size:1.3rem;margin:2rem 0 .6rem}
+h4{font-family:"Manrope",sans-serif;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:2rem 0 .4rem}
+p{margin:0 0 1.05em}
+p.speech{text-indent:0}
+p.note{color:var(--muted);font-style:italic}
+ul{margin:0 0 1.2em;padding-left:1.1rem}
+li{margin:.35em 0}
+strong{font-weight:600}
+
+/* подпис: цветна нишка по левия ръб според класа */
+.thread{position:fixed;left:0;top:0;bottom:0;width:5px;background:var(--accent,var(--rule))}
+@media(max-width:640px){.thread{width:4px}}
+
+.lede{font-size:1.08rem;color:var(--muted);margin-bottom:2rem}
+.dl{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.6rem 0 2.4rem}
+.dl a{
+  font-family:"Manrope",sans-serif;font-size:.82rem;letter-spacing:.04em;
+  text-decoration:none;border:1px solid var(--rule);border-radius:2px;
+  padding:.55rem .9rem;background:#fff;
+}
+.dl a:hover{border-color:var(--ink)}
+
+.year{margin:3.2rem 0 1rem;padding-top:1.1rem;border-top:1px solid var(--rule)}
+.year h2{margin:0;font-size:1.45rem}
+.year .sub{font-family:"Manrope",sans-serif;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:.25rem}
+.toc{list-style:none;margin:.8rem 0 0;padding:0}
+.toc li{margin:0;border-bottom:1px solid var(--rule)}
+.toc a{display:flex;gap:.85rem;align-items:baseline;padding:.72rem .2rem;text-decoration:none}
+.toc a:hover{background:#fff}
+.toc .num{font-family:"Manrope",sans-serif;font-size:.78rem;color:var(--muted);min-width:1.6rem;font-variant-numeric:tabular-nums}
+.toc .t{flex:1}
+.y1 .num{color:var(--g1)} .y2 .num{color:var(--g2)} .y3 .num{color:var(--g3)}
+
+.storyhead{margin-bottom:1.8rem}
+.q{margin:2.4rem 0 0;padding:1.2rem 1.3rem;background:#fff;border:1px solid var(--rule)}
+.q h4{margin-top:0}
+.try{margin-top:1.2rem;font-family:"Manrope",sans-serif;font-size:.92rem;line-height:1.55}
+
+.nav{display:flex;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--rule);font-family:"Manrope",sans-serif;font-size:.85rem}
+.nav a{text-decoration:none;color:var(--muted)}
+.nav a:hover{color:var(--ink)}
+
+footer{margin-top:4rem;padding-top:1.4rem;border-top:1px solid var(--rule);font-family:"Manrope",sans-serif;font-size:.8rem;line-height:1.6;color:var(--muted)}
+footer a{color:var(--muted)}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+@media print{.thread,.nav,.dl{display:none}body{background:#fff}}
+</style>
+</head>
+<body >
+<div class="thread"></div>
+<div class="wrap">
+<p class="eyebrow"><a href="index.html" style="text-decoration:none">Малкият компас</a></p><h2>За възрастния, който чете на глас</h2>
+<p>Тази книга не учи правила. Учи детето да забелязва и да мисли.</p>
+<p>Малките деца вече знаят кое боли и кое не боли — знаят го, преди да могат да го обяснят. Това, което им липсва, не са забрани, а думи и упражнение. Затова тук няма поуки в края на историите. Няма изречение, което да казва „и така Мира разбрала, че трябва да бъдем честни“. Такова изречение изключва мисленето точно когато то тъкмо е започнало.</p>
+<p>Ако прочетете историята и замълчите, детето почти сигурно ще каже нещо. Изчакайте го. Първата дума в разговора да е негова.</p>
+<p>Няколко неща, които помагат:</p>
+<p><strong>Детето може да каже нещо, което не ви харесва.</strong> „Аз щях да взема парите.“ „Аз нямаше да кажа на никого.“ Не се стряскайте и не поправяйте веднага. Питайте: „А после какво щеше да стане?“ Пътят до отговора е по-важен от отговора.</p>
+<p><strong>Вашето мнение идва след неговото.</strong> И е добре да звучи като мнение: „Аз мисля, че…“, а не „Ето кое е правилното“. Ако сте сигурни, кажете го — но им оставете правото да не се съгласят на глас.</p>
+<p><strong>Разкажете кога вие сте сгрешили така.</strong> Това е най-ценното нещо в цялата книга и то не е написано в нея. Дете, което е чуло, че големите също чупят чинии и лъжат за това, ще ви каже истината следващия път.</p>
+<p><strong>Не използвайте историята като оръжие.</strong> „Нали четохме за момчето, което лъжеше?“ — след това изречение книгата е свършила. Историите не са в отбора на възрастните.</p>
+<p><strong>Може да кажете „не знам“.</strong> Някои от въпросите нямат отговор и при мен. Това не е слабост, а истина, а и децата така или иначе го усещат.</p>
+<p><strong>Една история седмично е достатъчна.</strong> По-добре една, за която сте говорили десет минути, отколкото пет, изслушани подред. И не се учудвайте, ако поискат същата история пак и пак — така се научава.</p>
+<p><strong>„Опитай тази седмица“ не е домашно.</strong> Не го проверявайте. Ако детето го е забравило, значи още не е било негово.</p>
+<p>Компасът не казва накъде да вървиш. Показва къде е северът, а посоката избираш ти и продължаваш да я избираш при всяка следваща крачка. Затова тук няма правила за запомняне, а въпроси, които детето да си задава само. „Малкият“ е, защото е за малки деца — и защото има по-голям: „Компас за характера“, писан за читатели между 12 и 18 години.</p>
+<p>Историите следват един клас — от първи до трети. Затова първите са къси и прости, а последните са по-дълги и по-объркани, като живота. Първи и втори клас се четат на глас. Трети клас много деца могат да четат сами, но и тогава си струва да ги четете заедно, защото книгата работи в разговора, не в страницата.</p>
+<h2>Кой кой е</h2>
+<p><strong>Мира</strong> — избухлива, честна, вдига ръка, преди да е помислила.</p>
+<p><strong>Тео</strong> — смешник. Понякога за сметка на друг.</p>
+<p><strong>Ивайла</strong> — организира всичко и всички. Обича правилата.</p>
+<p><strong>Дани</strong> — тих, идва от друг град през втори клас, рисува.</p>
+<p><strong>Ема</strong> — живяла е в чужбина и понякога подрежда думите наопаки.</p>
+<p><strong>Госпожа Лили</strong> — учителката им. Рядко бърза да отговори.</p>
+<p><strong>Дядо Стефан</strong> — хазяинът на училището. Знае къде е всичко.</p>
+<p><strong>Боби</strong> — малкото братче на Мира. На три години.</p>
+<p><strong>Пепел</strong> — котката на двора. Ничия и на всички.</p><div class="nav"><a href="index.html">← Съдържание</a><a href="st01.html">Чайникът →</a></div>
+<footer>
+<p>„Малкият компас“ — двайсет истории за добро и лошо, за деца от 1. до 3. клас.
+Текстът е написан от Клод (Claude, Anthropic) по задание на Симеон Бодуров и е редактиран от него ред по ред.</p>
+<p>За по-големи читатели: <a href="https://simeonbodurov.github.io/kompas-za-haraktera/">Компас за характера</a>.</p>
+<p>Свободно за некомерсиална употреба с посочване на източника — CC BY-NC-SA 4.0.</p>
+</footer>
+</div>
+</body>
+</html>

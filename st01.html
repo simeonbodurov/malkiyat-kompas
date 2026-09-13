@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Чайникът — Малкият компас</title>
+<meta name="description" content="История 1 от „Малкият компас“.">
+<meta property="og:title" content="Чайникът — Малкият компас">
+<meta property="og:description" content="История 1 от „Малкият компас“.">
+<meta property="og:type" content="book">
+<meta name="theme-color" content="#FBF9F4">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Literata:opsz,wght@7..72,400;7..72,600&family=Manrope:wght@400;600&display=swap&subset=cyrillic" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBF9F4; --ink:#1B2330; --muted:#6C7284; --rule:#E2DDD2;
+  --g1:#3F7A6B; --g2:#B0692F; --g3:#5E5391;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Literata",Georgia,"Times New Roman",serif;
+  font-size:19px; line-height:1.66;
+}
+a{color:inherit}
+.wrap{max-width:34rem;margin:0 auto;padding:2.2rem 1.4rem 5rem}
+.eyebrow{
+  font-family:"Manrope",system-ui,sans-serif; font-size:.72rem;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--muted);
+  margin:0 0 .5rem;
+}
+h1{
+  font-family:"Alegreya",Georgia,serif; font-weight:500;
+  font-size:2.55rem; line-height:1.08; letter-spacing:-.01em; margin:.2rem 0 .6rem;
+}
+h2{font-family:"Alegreya",Georgia,serif;font-weight:500;font-size:1.6rem;line-height:1.2;margin:2.6rem 0 .8rem}
+h3{font-family:"Alegreya",Georgia,serif;font-weight:500;font-size:1.3rem;margin:2rem 0 .6rem}
+h4{font-family:"Manrope",sans-serif;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:2rem 0 .4rem}
+p{margin:0 0 1.05em}
+p.speech{text-indent:0}
+p.note{color:var(--muted);font-style:italic}
+ul{margin:0 0 1.2em;padding-left:1.1rem}
+li{margin:.35em 0}
+strong{font-weight:600}
+
+/* подпис: цветна нишка по левия ръб според класа */
+.thread{position:fixed;left:0;top:0;bottom:0;width:5px;background:var(--accent,var(--rule))}
+@media(max-width:640px){.thread{width:4px}}
+
+.lede{font-size:1.08rem;color:var(--muted);margin-bottom:2rem}
+.dl{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.6rem 0 2.4rem}
+.dl a{
+  font-family:"Manrope",sans-serif;font-size:.82rem;letter-spacing:.04em;
+  text-decoration:none;border:1px solid var(--rule);border-radius:2px;
+  padding:.55rem .9rem;background:#fff;
+}
+.dl a:hover{border-color:var(--ink)}
+
+.year{margin:3.2rem 0 1rem;padding-top:1.1rem;border-top:1px solid var(--rule)}
+.year h2{margin:0;font-size:1.45rem}
+.year .sub{font-family:"Manrope",sans-serif;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:.25rem}
+.toc{list-style:none;margin:.8rem 0 0;padding:0}
+.toc li{margin:0;border-bottom:1px solid var(--rule)}
+.toc a{display:flex;gap:.85rem;align-items:baseline;padding:.72rem .2rem;text-decoration:none}
+.toc a:hover{background:#fff}
+.toc .num{font-family:"Manrope",sans-serif;font-size:.78rem;color:var(--muted);min-width:1.6rem;font-variant-numeric:tabular-nums}
+.toc .t{flex:1}
+.y1 .num{color:var(--g1)} .y2 .num{color:var(--g2)} .y3 .num{color:var(--g3)}
+
+.storyhead{margin-bottom:1.8rem}
+.q{margin:2.4rem 0 0;padding:1.2rem 1.3rem;background:#fff;border:1px solid var(--rule)}
+.q h4{margin-top:0}
+.try{margin-top:1.2rem;font-family:"Manrope",sans-serif;font-size:.92rem;line-height:1.55}
+
+.nav{display:flex;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--rule);font-family:"Manrope",sans-serif;font-size:.85rem}
+.nav a{text-decoration:none;color:var(--muted)}
+.nav a:hover{color:var(--ink)}
+
+footer{margin-top:4rem;padding-top:1.4rem;border-top:1px solid var(--rule);font-family:"Manrope",sans-serif;font-size:.8rem;line-height:1.6;color:var(--muted)}
+footer a{color:var(--muted)}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+@media print{.thread,.nav,.dl{display:none}body{background:#fff}}
+</style>
+</head>
+<body style="--accent:#3F7A6B">
+<div class="thread"></div>
+<div class="wrap">
+<p class="eyebrow"><a href="index.html" style="text-decoration:none">Малкият компас</a> · Първи клас</p>
+<div class="storyhead"><h1>Чайникът</h1></div>
+<p>Мира подреждаше моливите си по цвят. Червеното до оранжевото, оранжевото до жълтото. Беше стигнала до зеленото, когато Тео мина покрай чина, закачи несесера с лакът и всичко се разсипа по пода.</p>
+<p>Мира не помисли нищо. Просто стана и го бутна.</p>
+<p>Тео седна на пода изненадан. Един молив се търколи чак до вратата.</p>
+<p class='speech'>— Мира — каза госпожа Лили. — Ела за малко.</p>
+<p>Мира отиде и чакаше да ѝ се скарат. Ушите ѝ горяха.</p>
+<p class='speech'>— Знаеш ли какво прави чайникът, като заври? — попита госпожа Лили.</p>
+<p>Мира не знаеше защо говорят за чайници.</p>
+<p class='speech'>— Свири.</p>
+<p class='speech'>— И пуска пара. Ако не пусне парата, капакът хвърчи. Парата трябва да излезе, няма как. — Госпожа Лили сложи ръка на чина. — Ядът е като парата. Ти не си виновна, че те е яд. Никой не е виновен, че го е яд.</p>
+<p class='speech'>— Ама аз го бутнах.</p>
+<p class='speech'>— Да. Това е другото. Парата излиза през чучура, не през капака. Чучурът са думите — казваш какво не ти харесва. Капакът са ръцете.</p>
+<p>Мира помълча.</p>
+<p class='speech'>— Ами ако думите не стигнат?</p>
+<p class='speech'>— Тогава излизаш в коридора и се връщаш. Аз така правя, когато съм ядосана.</p>
+<p>Мира вдигна глава.</p>
+<p class='speech'>— Вие се ядосвате?</p>
+<p class='speech'>— Всеки ден — каза госпожа Лили. — Днес три пъти.</p>
+<p>На другата сутрин Тео пак мина покрай чина и пак закачи несесера. Мира стисна юмруци под масата и издиша дълго, както се духа супа.</p>
+<p class='speech'>— Вдигни го — каза тя.</p>
+<p>Тео го вдигна.</p>
+<div class="q"><h4>Какво мислиш ти?</h4><ul>
+<li>Лошо ли е да те е яд?</li>
+<li>Кое е по-трудно — да кажеш „вдигни го“, или да бутнеш?</li>
+<li>Ти къде отиваш, когато много те е яд?</li>
+</ul><p class="try"><strong>Опитай тази седмица:</strong> когато те е яд, издишай бавно и преброй до пет, преди да направиш каквото и да било. После виж какво ти се прави още.</p></div>
+<div class="nav"><a href="index.html">← Съдържание</a><a href="st02.html">Не знам →</a></div>
+<footer>
+<p>„Малкият компас“ — двайсет истории за добро и лошо, за деца от 1. до 3. клас.
+Текстът е написан от Клод (Claude, Anthropic) по задание на Симеон Бодуров и е редактиран от него ред по ред.</p>
+<p>За по-големи читатели: <a href="https://simeonbodurov.github.io/kompas-za-haraktera/">Компас за характера</a>.</p>
+<p>Свободно за некомерсиална употреба с посочване на източника — CC BY-NC-SA 4.0.</p>
+</footer>
+</div>
+</body>
+</html>

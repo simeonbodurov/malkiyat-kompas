@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Малкият компас — книга за етика за деца от 1. до 3. клас</title>
+<meta name="description" content="Двайсет истории за добро и лошо, за четене на глас с деца от първи до трети клас.">
+<meta property="og:title" content="Малкият компас — книга за етика за деца от 1. до 3. клас">
+<meta property="og:description" content="Двайсет истории за добро и лошо, за четене на глас с деца от първи до трети клас.">
+<meta property="og:type" content="book">
+<meta name="theme-color" content="#FBF9F4">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Literata:opsz,wght@7..72,400;7..72,600&family=Manrope:wght@400;600&display=swap&subset=cyrillic" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBF9F4; --ink:#1B2330; --muted:#6C7284; --rule:#E2DDD2;
+  --g1:#3F7A6B; --g2:#B0692F; --g3:#5E5391;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Literata",Georgia,"Times New Roman",serif;
+  font-size:19px; line-height:1.66;
+}
+a{color:inherit}
+.wrap{max-width:34rem;margin:0 auto;padding:2.2rem 1.4rem 5rem}
+.eyebrow{
+  font-family:"Manrope",system-ui,sans-serif; font-size:.72rem;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--muted);
+  margin:0 0 .5rem;
+}
+h1{
+  font-family:"Alegreya",Georgia,serif; font-weight:500;
+  font-size:2.55rem; line-height:1.08; letter-spacing:-.01em; margin:.2rem 0 .6rem;
+}
+h2{font-family:"Alegreya",Georgia,serif;font-weight:500;font-size:1.6rem;line-height:1.2;margin:2.6rem 0 .8rem}
+h3{font-family:"Alegreya",Georgia,serif;font-weight:500;font-size:1.3rem;margin:2rem 0 .6rem}
+h4{font-family:"Manrope",sans-serif;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:2rem 0 .4rem}
+p{margin:0 0 1.05em}
+p.speech{text-indent:0}
+p.note{color:var(--muted);font-style:italic}
+ul{margin:0 0 1.2em;padding-left:1.1rem}
+li{margin:.35em 0}
+strong{font-weight:600}
+
+/* подпис: цветна нишка по левия ръб според класа */
+.thread{position:fixed;left:0;top:0;bottom:0;width:5px;background:var(--accent,var(--rule))}
+@media(max-width:640px){.thread{width:4px}}
+
+.lede{font-size:1.08rem;color:var(--muted);margin-bottom:2rem}
+.dl{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.6rem 0 2.4rem}
+.dl a{
+  font-family:"Manrope",sans-serif;font-size:.82rem;letter-spacing:.04em;
+  text-decoration:none;border:1px solid var(--rule);border-radius:2px;
+  padding:.55rem .9rem;background:#fff;
+}
+.dl a:hover{border-color:var(--ink)}
+
+.year{margin:3.2rem 0 1rem;padding-top:1.1rem;border-top:1px solid var(--rule)}
+.year h2{margin:0;font-size:1.45rem}
+.year .sub{font-family:"Manrope",sans-serif;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:.25rem}
+.toc{list-style:none;margin:.8rem 0 0;padding:0}
+.toc li{margin:0;border-bottom:1px solid var(--rule)}
+.toc a{display:flex;gap:.85rem;align-items:baseline;padding:.72rem .2rem;text-decoration:none}
+.toc a:hover{background:#fff}
+.toc .num{font-family:"Manrope",sans-serif;font-size:.78rem;color:var(--muted);min-width:1.6rem;font-variant-numeric:tabular-nums}
+.toc .t{flex:1}
+.y1 .num{color:var(--g1)} .y2 .num{color:var(--g2)} .y3 .num{color:var(--g3)}
+
+.storyhead{margin-bottom:1.8rem}
+.q{margin:2.4rem 0 0;padding:1.2rem 1.3rem;background:#fff;border:1px solid var(--rule)}
+.q h4{margin-top:0}
+.try{margin-top:1.2rem;font-family:"Manrope",sans-serif;font-size:.92rem;line-height:1.55}
+
+.nav{display:flex;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--rule);font-family:"Manrope",sans-serif;font-size:.85rem}
+.nav a{text-decoration:none;color:var(--muted)}
+.nav a:hover{color:var(--ink)}
+
+footer{margin-top:4rem;padding-top:1.4rem;border-top:1px solid var(--rule);font-family:"Manrope",sans-serif;font-size:.8rem;line-height:1.6;color:var(--muted)}
+footer a{color:var(--muted)}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+@media print{.thread,.nav,.dl{display:none}body{background:#fff}}
+</style>
+</head>
+<body >
+<div class="thread"></div>
+<div class="wrap">
+<p class="eyebrow">Книга за четене на глас</p>
+<h1>Малкият компас</h1>
+<p class="lede">Двайсет истории за добро и лошо — за деца от 1. до 3. клас.
+Един клас, едни и същи деца, три години. Нито една история не свършва с поука.</p>
+<div class="dl">
+  <a href="uvod.html">За възрастния, който чете</a>
+  <a href="kniga.html">Цялата книга на една страница</a>
+  <a href="malkiyat-kompas.md">Свали текста</a>
+</div>
+<div class="year"><h2>Първи клас</h2><div class="sub">за мен самия</div></div><ul class="toc y1"><li><a href="st01.html"><span class="num">1</span><span class="t">Чайникът</span></a></li><li><a href="st02.html"><span class="num">2</span><span class="t">Не знам</span></a></li><li><a href="st03.html"><span class="num">3</span><span class="t">Страхът не е срам</span></a></li><li><a href="st04.html"><span class="num">4</span><span class="t">Счупената чиния</span></a></li><li><a href="st05.html"><span class="num">5</span><span class="t">„Съжалявам, ама…“</span></a></li><li><a href="st06.html"><span class="num">6</span><span class="t">Онова, което никой не вижда</span></a></li></ul><div class="year"><h2>Втори клас</h2><div class="sub">за мен и теб</div></div><ul class="toc y2"><li><a href="st07.html"><span class="num">7</span><span class="t">Мястото до Дани</span></a></li><li><a href="st08.html"><span class="num">8</span><span class="t">Смешно ли е?</span></a></li><li><a href="st09.html"><span class="num">9</span><span class="t">Тайната, която тежи</span></a></li><li><a href="st10.html"><span class="num">10</span><span class="t">Дадената дума</span></a></li><li><a href="st11.html"><span class="num">11</span><span class="t">Когато приятел сгреши</span></a></li><li><a href="st12.html"><span class="num">12</span><span class="t">Как се стои до някой, който е тъжен</span></a></li></ul><div class="year"><h2>Трети клас</h2><div class="sub">за мен и другите</div></div><ul class="toc y3"><li><a href="st13.html"><span class="num">13</span><span class="t">Еднакво не значи справедливо</span></a></li><li><a href="st14.html"><span class="num">14</span><span class="t">Играта без победител</span></a></li><li><a href="st15.html"><span class="num">15</span><span class="t">Чуждият обяд</span></a></li><li><a href="st16.html"><span class="num">16</span><span class="t">Правилото, което няма смисъл</span></a></li><li><a href="st17.html"><span class="num">17</span><span class="t">Чух, че…</span></a></li><li><a href="st18.html"><span class="num">18</span><span class="t">Кой ще каже?</span></a></li><li><a href="st19.html"><span class="num">19</span><span class="t">Смешното в час</span></a></li><li><a href="st20.html"><span class="num">20</span><span class="t">Двата въпроса</span></a></li></ul>
+<div class="year"><h2>Отзад в книгата</h2></div>
+<ul class="toc"><li><a href="nakraya.html"><span class="num">·</span><span class="t">Накрая · За тази книга</span></a></li></ul>
+<footer>
+<p>„Малкият компас“ — двайсет истории за добро и лошо, за деца от 1. до 3. клас.
+Текстът е написан от Клод (Claude, Anthropic) по задание на Симеон Бодуров и е редактиран от него ред по ред.</p>
+<p>За по-големи читатели: <a href="https://simeonbodurov.github.io/kompas-za-haraktera/">Компас за характера</a>.</p>
+<p>Свободно за некомерсиална употреба с посочване на източника — CC BY-NC-SA 4.0.</p>
+</footer>
+</div>
+</body>
+</html>
